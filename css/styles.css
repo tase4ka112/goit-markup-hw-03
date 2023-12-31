@@ -4,16 +4,52 @@ body {
     background-color: #FFFFFF;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
 }
 
 
 /** --------------header------------- */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-logo {
     color: #4D5AE5;
@@ -64,7 +100,13 @@ ul {
 /** --------------hero------------- */
 
 .hero {
-    background: #2E2F42;
+    padding-bottom: 0;
+}
+
+.hero-container {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .hero-title {
@@ -74,6 +116,9 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .hero-btn {
@@ -98,8 +143,22 @@ ul {
 
 /** -----------features----------- */
 
-.features {}
+.features {
+    background: #FFF;
+}
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .features-list {}
 
@@ -127,6 +186,7 @@ ul {
 /** --------------team------------- */
 
 .team {
+    padding-top: 120px;
     background-color: #F4F4FD;
 }
 
