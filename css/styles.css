@@ -57,6 +57,10 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 
+.header-container {
+    display: flex;
+}
+
 .header-navigation {
     display: flex;
     align-items: center;
@@ -80,11 +84,10 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    margin-right: 332px;
 }
 
-.header-menu-item {
-    padding: 24px 0;
-}
+.header-menu-item {}
 
 .header-menu-link {
     display: flex;
@@ -94,6 +97,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 40px;
+    padding: 24px 0
 }
 
 .header-menu-link:hover,
