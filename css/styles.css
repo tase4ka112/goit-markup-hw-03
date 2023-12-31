@@ -132,13 +132,11 @@ img {
 /** --------------hero------------- */
 
 .hero {
-    padding-bottom: 0;
-}
-
-.hero-container {
     background-color: #2E2F42;
     padding: 188px 0;
 }
+
+.hero-container {}
 
 .hero-title {
     color: #FFF;
@@ -166,6 +164,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+
 
 }
 
