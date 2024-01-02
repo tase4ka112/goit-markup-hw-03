@@ -52,12 +52,14 @@ img {
 /** --------------header------------- */
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    height: 72px;
 
 }
 
@@ -86,8 +88,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header-menu-item {}
@@ -153,7 +154,6 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
     max-width: 496px;
     margin: 0 auto 48px;
 }
